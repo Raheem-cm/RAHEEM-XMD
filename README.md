@@ -2,7 +2,7 @@
 
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=100&pause=1000&color=8A2BE2&center=true&width=1000&height=200&lines=RAHEEM-XMD" alt="Typing SVG" /></a>
   </div>
-<a><img src='https://files.catbox.moe/daj3p0.jp'/></a>
+<a><img src='https://files.catbox.moe/51w9tt.jpg'/></a>
 
 <p align="center">
   <a href="https://github.com/Raheem-cm"><img title="Developer" src="https://img.shields.io/badge/AUTHOR-RAHEEM%20XMD%20-FF00FF.svg?style=big-square&logo=github" /></a>
