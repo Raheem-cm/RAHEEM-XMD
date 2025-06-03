@@ -1,5 +1,5 @@
 const axios = require('axios');
-const { raheem } = require("../Raheem-cm/18");
+const { raheem } = require("../Raheem-cm/Raheem");
 const conf = require(__dirname + '/../set');
 
 // NBA API Key and URL (replace with the correct API endpoint)
@@ -23,7 +23,7 @@ const fetchNBAData = async (endpoint) => {
 };
 
 // NBA command to handle selection of updates via number input
-ezra({
+Raheem({
   nomCom: "nba",
   categorie: "sports",
   reaction: "🏀",
