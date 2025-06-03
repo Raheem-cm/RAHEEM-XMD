@@ -1,8 +1,8 @@
 const {
-  ezra
-} = require("../Raheem-cm/18");
+  Raheem
+} = require("../Raheem-cm/Raheem");
 const axios = require("axios");
-ezra({
+Raheem({
   'nomCom': "tiktokstalk",
   'reaction': '🔍',
   'categorie': 'Search'
@@ -28,7 +28,7 @@ ezra({
     await _0x43ea2d("An error occurred.");
   }
 });
-ezra({
+Raheem({
   'nomCom': "instastalk",
   'reaction': '🔎',
   'categorie': 'Search'
@@ -80,7 +80,7 @@ ezra({
     await _0x49a05d("An error occurred.");
   }
 });
-ezra({
+Raheem({
   'nomCom': "gitstalk",
   'reaction': '🔎',
   'categorie': "Search"
