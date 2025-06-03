@@ -4,9 +4,9 @@ Object.defineProperty(exports, '__esModule', {
   'value': true
 });
 const {
-  ezra
-} = require("../Raheem-cm/18");
-ezra({
+  Raheem
+} = require("../Raheem-cm/Raheem");
+Raheem({
   'nomCom': "wallpaper4",
   'reaction': '🎞',
   'nomFichier': __filename
