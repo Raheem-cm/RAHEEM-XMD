@@ -1,11 +1,11 @@
-const {cm18} = require('../Raheem-cm/18');
+const {Raheem} = require('../Raheem-cm/Raheem');
 const fs = require("fs");
 const { exec } = require("child_process");
 
 
 const filename = `${Math.random().toString(36)}`;
 
-ezra (
+Raheem (
     {
         nomCom : 'deep',
         categorie : 'Audio-Edit',
@@ -50,7 +50,7 @@ ezra (
     }
 );
 
-ezra (
+Raheem (
     {
         nomCom : 'bass',
         categorie : 'Audio-Edit',
@@ -95,7 +95,7 @@ ezra (
     }
 );
 
-ezra(
+Raheem(
     {
       nomCom: 'reverse',
       categorie: 'Audio-Edit',
@@ -131,7 +131,7 @@ ezra(
     }
   );
   
-  ezra(
+  Raheem(
     {
       nomCom: 'slow',
       categorie: 'Audio-Edit',
@@ -168,7 +168,7 @@ ezra(
   );
 
 // Cas pour l'effet "smooth"
-ezra(
+Raheem(
     {
       nomCom: 'smooth',
       categorie: 'Audio-Edit',
@@ -205,7 +205,7 @@ ezra(
   );
   
   // Cas pour l'effet "tempo"
-  ezra(
+  Raheem(
     {
       nomCom: 'tempo',
       categorie: 'Audio-Edit',
@@ -242,7 +242,7 @@ ezra(
   );
   
   // Cas pour l'effet "nightcore"
-  ezra(
+  Raheem(
     {
       nomCom: 'nightcore',
       categorie: 'Audio-Edit',
