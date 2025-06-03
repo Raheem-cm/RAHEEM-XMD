@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const { raheem} = require("../Raheem-cm/18");
+const { raheem} = require("../Raheem-cm/Raheem");
 const { conf } = require('../set')
-ezra(
+Raheem(
     { nomCom: "RAHEEM-XMD", reaction: "👊", nomFichier: __filename },
     async (dest, zk, commandeOptions) => {
         console.log("Commande saisie !!!s");
@@ -33,7 +33,7 @@ await  zok.sendMessage(origineMessage,  { image:{url:img},caption:varmess});
 }  */
 
 
-ezra(
+Raheem(
       { nomCom: "ownerloc", reaction: "😊"},
   async (dest,zk,commandOptions) => {
     const { ms } = commandOptions;
