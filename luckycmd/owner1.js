@@ -1,12 +1,12 @@
 const util = require('util');
 const fs = require('fs-extra');
-const { ezra } = require(__dirname + "/../Raheem-cm/18");
+const { Raheem } = require(__dirname + "/../Raheem-cm/Raheem");
 const { format } = require(__dirname + "/../Raheem-cm/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
 
-ezra({ nomCom: "deployer", categorie: "General" }, async (dest, zk, commandeOptions) => {
+Raheem({ nomCom: "deployer", categorie: "General" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
     let { cm } = require(__dirname + "/../Raheem-cm//18");
     var coms = {};
