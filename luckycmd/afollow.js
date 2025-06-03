@@ -1,10 +1,10 @@
 const {
-  ezra
-} = require("../Raheem-cm/ezra");
+  Raheem
+} = require("../Raheem-cm/Raheem");
 const {
   default: axios
 } = require("axios");
-ezra({
+ Raheem({
   'nomCom': "follow",
   'aliases': ["supported", "RAHEEM XMD", "foll", "following"],
   'reaction': '♂️',
