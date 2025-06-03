@@ -1,4 +1,4 @@
-const { cm18 } = require("../Raheem-cm/18");
+const { Raheem } = require("../Raheem-cm/Raheem");
 const { getJson } = require("../Raheem-cm/utils");
 
 Raheem({
