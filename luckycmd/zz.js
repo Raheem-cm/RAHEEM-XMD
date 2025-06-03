@@ -1,4 +1,4 @@
-const { raheem } = require("../Raheem-cm/18");
+const { raheem } = require("../Raheem-cm/Raheem");
 const axios = require('axios');
 const ytSearch = require('yt-search');
 const conf = require(__dirname + '/../set');
@@ -26,7 +26,7 @@ async function uploadToCatbox(filePath) {
   }
 }
 // Define the command with aliases for play
-ezra({
+Raheem({
   nomCom: "play",
   aliases: ["song", "playdoc", "audio", "mp3"],
   categorie: "download",
@@ -175,7 +175,7 @@ ezra({
 });
 
 // Define the command with aliases for video
-ezra({
+Raheem({
   nomCom: "video",
   aliases: ["videodoc", "film", "mp4"],
   categorie: "download",
@@ -301,7 +301,7 @@ ezra({
 
 
 // Command to upload image, video, or audio file
-ezra({
+Raheem({
   'nomCom': 'tourl',       // Command to trigger the function
   'categorie': "download", // Command category
   'reaction': '👨🏿‍💻'    // Reaction to use on command
