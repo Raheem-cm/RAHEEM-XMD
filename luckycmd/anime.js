@@ -1,9 +1,9 @@
 const axios = require("axios");
-const {ezra} = require("../Raheem-cm/18");
+const {Raheem} = require("../Raheem-cm/Raheem");
 const traduire = require("../Raheem-cm/traduction");
 const {Sticker ,StickerTypes}= require('wa-sticker-formatter');
 
-ezra({
+Raheem({
   nomCom: "ranime",
   categorie: "Fun",
   reaction: "📺"
@@ -35,7 +35,7 @@ async (origineMessage, zk, commandeOptions) => {
   }
 });
 
-ezra({
+Raheem({
   nomCom: "google",
   categorie: "Search"
 }, async (dest, zk, commandeOptions) => {
@@ -64,7 +64,7 @@ ezra({
   }
 });
 
-ezra({
+Raheem({
   nomCom: "imdb",
   categorie: "Search"
 }, async (dest, zk, commandeOptions) => {
@@ -115,7 +115,7 @@ ezra({
 });
 
 
-ezra({
+Raheem({
   nomCom: "emomix",
   categorie: "Conversion"
 }, async (dest, zk, commandeOptions) => {
