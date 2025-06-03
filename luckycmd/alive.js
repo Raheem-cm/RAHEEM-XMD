@@ -1,9 +1,9 @@
-const { ezra } = require('../Raheem-cm/18');
+const { Raheem } = require('../Raheem-cm/18');
 const {addOrUpdateDataInAlive , getDataFromAlive} = require('../luckydatabase/alive')
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
 
-ezra(
+Raheem(
     {
         nomCom : 'live-me',
         categorie : 'General'
