@@ -5,7 +5,7 @@
 const { raheem } = require("../Raheem-cm/Raheem");
 const axios = require("axios");
 
-Raheem({ nomCom: "videologo", categorie: "Rahee-cm-logo", reaction: "🔖" }, async (dest, zk, commandeOptions) => {
+Raheem({ nomCom: "videologo", categorie: "Raheem-cm-logo", reaction: "🔖" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, arg } = commandeOptions;
   const text = arg.join(" ");
 
