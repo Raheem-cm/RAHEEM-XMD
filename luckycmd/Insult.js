@@ -1,7 +1,7 @@
-const { cm18 } = require('../Raheem-cm/18');
+const { Raheem } = require('../Raheem-cm/18');
 const axios = require("axios");
 
-ezra({
+Raheem({
   nomCom: "insult",
   aliases: ["abuse", "tusi"],
   categorie: "search",
