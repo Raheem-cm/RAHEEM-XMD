@@ -1,6 +1,6 @@
 const {
   Raheem
-} = require("../Raheem-cm/18");
+} = require("../Raheem-cm/Raheem");
 const {
   default: axios
 } = require("axios");
