@@ -1,5 +1,5 @@
 
-const { cm18} = require('../Raheem-cm/18');
+const {Raheem} = require('../Raheem-cm/Raheem');
 const Heroku = require('heroku-client');
 const s = require("../set");
 const axios = require("axios");
@@ -39,7 +39,7 @@ async function loading(dest, zk) {
   }
 }
 
-ezra({
+Raheem({
   nomCom: "test",
   aliases: ["testing"],
   categorie: "system",
@@ -96,7 +96,7 @@ ezra({
 });
 
 
-ezra({
+Raheem({
   nomCom: "alive",
   categorie: "system",
   reaction: "🍂"
@@ -152,7 +152,7 @@ ezra({
 });
 
 
-ezra({
+Raheem({
   nomCom: 'restart',
   aliases: ['reboot'],
   categorie: "system"
@@ -184,7 +184,7 @@ ezra({
 
 
 // Command to retrieve Heroku config vars
-ezra({
+Raheem({
   nomCom: 'allvar',
   categorie: "system"
 }, async (chatId, zk, context) => {
@@ -227,7 +227,7 @@ ezra({
 });
 
 // Command to set a Heroku config var
-ezra({
+Raheem({
   nomCom: 'setvar',
   categorie: "system"
 }, async (chatId, zk, context) => {
@@ -269,7 +269,7 @@ ezra({
   }
 });
 
-ezra({
+Raheem({
   nomCom: "shell",
   aliases: ["getcmd", "cmd"],
   reaction: '🍂',
@@ -308,7 +308,7 @@ ezra({
   });
 });
 
-ezra(
+Raheem(
   {
     nomCom: 'ping',
     aliases: ['speed', 'latency'],
@@ -354,7 +354,7 @@ function react(dest, zk, msg, reaction) {
   zk.sendMessage(dest, { react: { text: reaction, key: msg.key } });
 }
 
-ezra({
+Raheem({
   nomCom: 'uptime',
   aliases: ['runtime', 'running'],
   desc: 'To check runtime',
@@ -394,7 +394,7 @@ function react(dest, zk, msg, reaction) {
 }
 
 
-ezra({
+Raheem({
   nomCom: 'update',
   aliases: ['redeploy', 'sync'],
   categorie: "system"
@@ -449,7 +449,7 @@ ezra({
   redeployApp();
 });
 
-ezra({
+Raheem({
   nomCom: "fetch",
   aliases: ["get", "find"],
   categorie: "system",
