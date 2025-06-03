@@ -1,8 +1,8 @@
-const { ezra } = require("../Raheem-cm/18");
+const { Raheem } = require("../Raheem-cm/Raheem");
 const axios = require('axios'); // Ensure axios is imported
 const conf = require(__dirname + "/../set");
 
-ezra({
+Raheem({
   nomCom: "hadith",
   aliases: ["islam", "hadees"],
   reaction: '📖',
