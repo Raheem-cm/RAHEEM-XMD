@@ -1,5 +1,5 @@
 const axios = require("axios");
-const { ezra } = require(__dirname + "/../Raheem-cm/18");
+const { Raheem } = require(__dirname + "/../Raheem-cm/Raheem");
 const { format } = require(__dirname + "/../Raheem-cm/mesfonctions");
 const os = require('os');
 const moment = require("moment-timezone");
@@ -36,7 +36,7 @@ const fetchGitHubStats = async () => {
     }
 };
 
-ezra({
+Raheem({
     nomCom: "repo",
     aliases: ["script", "cs"],
     reaction: '🍼',
