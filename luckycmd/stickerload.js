@@ -1,8 +1,8 @@
 const axios = require("axios");
 const { Sticker, StickerTypes } = require("wa-sticker-formatter");
-const {ezra} = require("../Raheem-cm/18");
+const {ezra} = require("../Raheem-cm/Raheem");
 
-ezra({
+Raheem({
   nomCom: "stickersearch",
   categorie: 'Search',
   reaction: "🌀"
