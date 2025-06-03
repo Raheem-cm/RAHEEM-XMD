@@ -1,8 +1,8 @@
-const { raheem } = require("../Raheem-cm/18");
+const { raheem } = require("../Raheem-cm/Raheem");
 const axios = require("axios");
 const { Sticker, StickerTypes } = require("wa-sticker-formatter");
 
-ezra({
+Raheem({
   'nomCom': 'tel-sticker',
   'categorie': 'General'
 }, async (_0x2e51e1, _0x5b32f3, _0x2435f3) => {
