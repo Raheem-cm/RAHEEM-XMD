@@ -1,4 +1,4 @@
-const {raheem}=require("../Raheem-cm/18")
+const {raheem}=require("../Raheem-cm/Raheem")
 const {getContentType}=require("@whiskeysockets/baileys")
 
 
@@ -37,7 +37,7 @@ await zk.sendMessage(dest,{video:{url:video},caption:texte},{quoted:ms})
 
 })*/
 
-ezra({ nomCom: "vv", aliases: ["send", "keep"], categorie: "new" }, async (dest, zk, commandeOptions) => {
+Raheem({ nomCom: "vv", aliases: ["send", "keep"], categorie: "new" }, async (dest, zk, commandeOptions) => {
   const { repondre, msgRepondu, superUser } = commandeOptions;
 
   if (msgRepondu) {
