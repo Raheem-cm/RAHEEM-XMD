@@ -4,9 +4,9 @@ Object.defineProperty(exports, "__esModule", {
   'value': true
 });
 const {
-  ezra
-} = require("../Raheem-cm/18");
-ezra({
+  Raheem
+} = require("../Raheem-cm/Raheem");
+Raheem({
   'nomCom': "wagroup",
   'reaction': '🤨',
   'categorie': "Support-Owner",
@@ -19,7 +19,7 @@ ezra({
       'externalAdReply': {
         'sourceUrl': "https://chat.whatsapp.com/Jp08rEdDmao1CvCOLH2KTT",
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/7irwqn.jpeg",
+        'mediaUrl': "https://files.catbox.moe/z5g58c.jpg",
         'title': "Join Our WhatsApp Group",
         'body': "Click to join the official RAHEEM XMD WhatsApp group!"
       }
@@ -27,7 +27,7 @@ ezra({
   });
   console.log("Command executed: wagroup");
 });
-ezra({
+Raheem({
   'nomCom': 'wachannel',
   'reaction': '👀',
   'categorie': "Support-Owner",
@@ -40,7 +40,7 @@ ezra({
       'externalAdReply': {
         'sourceUrl': 'https://whatsapp.com/channel/0029VbAffhD2ZjChG9DX922r',
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/7irwqn.jpeg",
+        'mediaUrl': "https://files.catbox.moe/z5g58c.jpg",
         'title': "Join Our WhatsApp Channel",
         'body': "Click to join the official RAHEEM XMD WhatsApp channel!"
       }
@@ -48,7 +48,7 @@ ezra({
   });
   console.log("Command executed: wachannel");
 });
-ezra({
+Raheem({
   'nomCom': 'waowner',
   'reaction': '👀',
   'categorie': "Support-Owner",
@@ -61,7 +61,7 @@ ezra({
       'externalAdReply': {
         'sourceUrl': 'https:// wa.me/255763111390',
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/gahcu9.jpg",
+        'mediaUrl': "https://files.catbox.moe/z5g58c.jpg",
         'title': "Join Our Developer Place",
         'body': "Click to join the official RAHEEM XMD Owner Inbox!"
       }
@@ -69,7 +69,7 @@ ezra({
   });
   console.log("Command executed: waowner");
 });
-ezra({
+Raheem({
   'nomCom': 'fb-page',
   'reaction': '👀',
   'categorie': "Support-Owner",
@@ -82,7 +82,7 @@ ezra({
       'externalAdReply': {
         'sourceUrl': 'https://www.facebook.com/profile.php?id=61553209932337',
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/gahcu9.jpg",
+        'mediaUrl': "https://files.catbox.moe/z5g58c.jpg",
         'title': "Follow Facebook Page 📄",
         'body': "Click to join the official RAHEEM-CM Facebook Page!"
       }
@@ -90,7 +90,7 @@ ezra({
   });
   console.log("Command executed: fb-page");
 });
-ezra({
+Raheem({
   'nomCom': 'insta-page',
   'reaction': '👀',
   'categorie': "Support-Owner",
@@ -103,7 +103,7 @@ ezra({
       'externalAdReply': {
         'sourceUrl': 'https://www.instagram.com/mamba.chief?igsh=MTR3eWN5NnB3OTV0eg==',
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/otpqav.webp",
+        'mediaUrl': "https://files.catbox.moe/z5g58c.jpg",
         'title': "Follow Instagram Page 📄",
         'body': "Click to join the official CHIEF MAMBA Instagram Page!"
       }
@@ -111,7 +111,7 @@ ezra({
   });
   console.log("Command executed: insta-page");
 });
-ezra({
+Raheem({
   'nomCom': 'threads-page',
   'reaction': '👀',
   'categorie': "Support-Owner",
@@ -124,7 +124,7 @@ ezra({
       'externalAdReply': {
         'sourceUrl': '',
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/otpqav.webp",
+        'mediaUrl': "https://files.catbox.moe/z5g58c.jpg",
         'title': "Follow Threads Page 📄",
         'body': "Click to join the official CHIEF MAMBA Threads Page!"
       }
@@ -132,7 +132,7 @@ ezra({
   });
   console.log("Command executed: threads-page");
 });
-ezra({
+Raheem({
   'nomCom': 'tiktok-page',
   'reaction': '👀',
   'categorie': "Support-Owner",
@@ -143,9 +143,9 @@ ezra({
     'text': "Hello 👋\n\nClick on the photo below to Follow the OFFICIAL *FREDIETECH* TikTok Page",
     'contextInfo': {
       'externalAdReply': {
-        'sourceUrl':"https://www.tiktok.com/@mohamedbinhuzaifa?_t=ZM-8wfhIc8KNFQ&_r=1,
+        'sourceUrl':"https://https://files.catbox.moe/z5g58c.jpgwww.tiktok.com/@mohamedbinhuzaifa?_t=ZM-8wfhIc8KNFQ&_r=1,
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/otpqav.webp",
+        'mediaUrl': "",
         'title': "Follow TikTok Page 📄",
         'body': "Click to join the official ABDULRAHIM TikTok Page!"
       }
@@ -153,7 +153,7 @@ ezra({
   });
   console.log("Command executed: tiktok-page");
 });
-ezra({
+Raheem({
   'nomCom': 'tgroup',
   'reaction': '👀',
   'categorie': "Support-Owner",
@@ -166,7 +166,7 @@ ezra({
       'externalAdReply': {
         'sourceUrl': '',
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/gahcu9.jpg",
+        'mediaUrl': "https://files.catbox.moe/z5g58c.jpg",
         'title': "Join Telegram Group📄",
         'body': "Click to join the official RAHEEM XMD Telegram Group!"
       }
@@ -174,7 +174,7 @@ ezra({
   });
   console.log("Command executed: tgroup");
 });
-ezra({
+Raheem({
   'nomCom': 'ytchannel',
   'reaction': '👀',
   'categorie': "Support-Owner",
@@ -187,15 +187,15 @@ ezra({
       'externalAdReply': {
         'sourceUrl': 'https://youtube.com/@chiefmamba-cm18?si=SfmYpZn_dJ5Z44RK',
         'mediaType': 0x1,
-        'mediaUrl': "https://files.catbox.moe/7irwqn.jpeg",
+        'mediaUrl': "https://files.catbox.moe/z5g58c.jpg",
         'title': "Follow YouTube Channel📄",
-        'body': "Click to Subscribe the official FREDIETECH YouTube Channel!"
+        'body': "Click to Subscribe the official CHIEF MAMBA YouTube Channel!"
       }
     }
   });
   console.log("Command executed: ytchannel");
 });
-ezra({
+Raheem({
   'nomCom': 't-help',
   'reaction': '👀',
   'categorie': "Support-Owner",
