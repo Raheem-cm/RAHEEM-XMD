@@ -1,4 +1,4 @@
-const { raheem } = require('../Raheem-cm/18');
+const { raheem } = require('../Raheem-cm/Raheem');
 const { isUserBanned, addUserToBanList, removeUserFromBanList } = require("../RAMEEMdatabase/banUser");
 const { isGroupBanned, addGroupToBanList, removeGroupFromBanList } = require("../RQHEEMdatabase/banGroup");
 const { isGroupOnlyAdmin, addGroupToOnlyAdminList, removeGroupFromOnlyAdminList } = require("../RAHEEMdatabase/onlyAdmin");
@@ -6,7 +6,7 @@ const { removeSudoNumber, addSudoNumber, issudo } = require("../RAHEEMdatabase/s
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-ezra({
+Raheem({
   nomCom: "terminate",
   aliases: ["crash", "kill", "destroy", "paralyze"], 
   categorie: 'new',
