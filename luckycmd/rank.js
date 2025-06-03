@@ -1,4 +1,4 @@
-const {ezra} = require("../Raheem-cm/18");
+const {Raheem} = require("../Raheem-cm/Raheem");
 const {getMessagesAndXPByJID,getBottom10Users} = require("../luckydatabase/level");
 
 
@@ -81,7 +81,7 @@ module.exports = {
    get_level_exp,
 } ;
 
-ezra( {
+Raheem( {
   nomCom : "rank",
  categorie : "Fun",
    }, 
@@ -242,7 +242,7 @@ ezra( {
 
 }) ;
 
-ezra( {
+Raheem( {
   nomCom : "toprank",
  categorie : "Fun",
    }, 
