@@ -1,8 +1,8 @@
 const googleTTS = require('google-tts-api');
-const {raheem} = require("../Raheem-cm/18");
+const {raheem} = require("../Raheem-cm/Raheem");
 
 
-ezra( {
+Raheem( {
   nomCom : "dit",
  categorie : "tts",
   reaction : "👄" },
@@ -25,7 +25,7 @@ console.log(url);
 }
 ) ;
 
-ezra( {
+Raheem( {
   nomCom : "itta",
  categorie : "tts",
   reaction : "👄" },
@@ -48,7 +48,7 @@ console.log(url);
 }
 ) ;
 
-ezra( {
+Raheem( {
   nomCom : "say",
  categorie : "tts",
   reaction : "👄" },
