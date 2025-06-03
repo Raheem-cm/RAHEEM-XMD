@@ -1,11 +1,11 @@
 const axios = require('axios');
-const { ezra } = require("../Raheem-cm/18");
+const { Raheem } = require("../Raheem-cm/Raheem");
 
 const BaseUrl = 'https://api.giftedtechnexus.co.ke';
 const downloadUrl = 'https://api.giftedtechnexus.co.ke/api/download/xnxxdl';
 const giftedapikey = 'giftedtechk';
 
-ezra({ nomCom: "xx", reaction: "🍂", categorie: "Music" }, async (dest, zk, commandeOptions) => {
+Raheem({ nomCom: "xx", reaction: "🍂", categorie: "Music" }, async (dest, zk, commandeOptions) => {
   const { repondre, arg, ms } = commandeOptions;
 
   try {
