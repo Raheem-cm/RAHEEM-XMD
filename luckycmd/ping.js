@@ -1,6 +1,6 @@
 const {
-  ezra
-} = require("./../Raheem-cm/18");
+  Raheem
+} = require("./../Raheem-cm/Raheem");
 const {
   format,
   runtime
@@ -12,7 +12,7 @@ const {
 } = require('perf_hooks');
 const conf = require('../set');
 
-ezra(
+Raheem(
   {
     nomCom: 'ping1',
     categorie: 'General',
@@ -44,7 +44,7 @@ ezra(
   }
 )
 
-ezra(
+Raheem(
   {
     nomCom: 'desc',
     reaction: 'ℹ',
@@ -121,7 +121,7 @@ _CPU Core(s) Usage (${cpus.length} Core CPU)_
   }
 );
 
-ezra(
+Raheem(
   {
     nomCom: 'runtime',
     reaction: '🚨',
