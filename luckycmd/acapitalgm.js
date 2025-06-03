@@ -1,6 +1,6 @@
 const {
-  ezra
-} = require("../Raheem-cm/ezra");
+  Raheem
+} = require("../Raheem-cm/Raheem");
 const capitalGame = [{
   'country': "Afghanistan",
   'capital': 'Kabul'
@@ -587,7 +587,7 @@ const capitalGame = [{
   'country': "Zimbabwe",
   'capital': 'Harare'
 }];
-ezra({
+Raheem({
   'nomCom': "guesscapital",
   'categorie': "Games"
 }, async (_0x4d7648, _0x864b53, _0x44ebdc) => {
