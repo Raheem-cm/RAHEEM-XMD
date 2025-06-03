@@ -1,9 +1,9 @@
-const { raheem } = require('../Raheem-cm/18');
+const { raheem } = require('../Raheem-cm/Raheem');
 
 // For RAHEEM XMD, we use a simple object to store per-chat state.
 let teddyState = {};
 
-ezra({
+Raheem({
   nomCom: "teddy",
   type: "fun",
   info: "Cute teddy command for RAHEEM XMD project",
