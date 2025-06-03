@@ -1,9 +1,9 @@
-const { raheem } = require('../Raheem-cm/18');
+const { raheem } = require('../Raheem-cm/Raheem');
 const {ajouterUtilisateurAvecWarnCount , getWarnCountByJID , resetWarnCountByJID} = require('../luckydatabase/warn')
 const s = require("../set")
 
 
-ezra(
+Raheem(
     {
         nomCom : 'warn',
         categorie : 'Group'
