@@ -1,9 +1,9 @@
-const { ezra } = require("../Raheem-cm/ezra");
+const { ezra } = require("../Raheem-cm/Raheem");
 const { generateProfilePicture } = require("../Raheem-cm/dl/Function");
 const { S_WHATSAPP_NET } = require('@whiskeysockets/baileys');
 const fs = require("fs");
 
-ezra({
+Raheem({
   nomCom: "fullpp",
   aliases: ["updatepp", "ppfull"],
   reaction: '🍂',
