@@ -1,4 +1,4 @@
-const { ezra } = require('../Raheem-cm/18');
+const { Raheem } = require('../Raheem-cm/Raheem');
 const traduire = require("../Raheem-cm/traduction") ;
 const { default: axios } = require('axios');
 //const conf = require('../set');
@@ -6,7 +6,7 @@ const { default: axios } = require('axios');
 
 
 
-ezra({nomCom:"fred",reaction:"🤷",categorie:"IA"},async(dest,zk,commandeOptions)=>{
+Raheem({nomCom:"fred",reaction:"🤷",categorie:"IA"},async(dest,zk,commandeOptions)=>{
 
   const {repondre,ms,arg}=commandeOptions;
   
@@ -45,7 +45,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
 
 
 
-  ezra({ nomCom: "bing4", reaction: "🌀", categorie: "IA" }, async (dest, zk, commandeOptions) => {
+  Raheem({ nomCom: "bing4", reaction: "🌀", categorie: "IA" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg, ms } = commandeOptions;
   
     try {
@@ -73,7 +73,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
     }
   });
   
-  ezra({ nomCom: "ai2", reaction: "🌀", categorie: "IA" }, async (dest, zk, commandeOptions) => {
+   Raheem({ nomCom: "ai2", reaction: "🌀", categorie: "IA" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg, ms } = commandeOptions;
   
     try {
@@ -98,7 +98,7 @@ fetch(`http://api.brainshop.ai/get?bid=177607&key=NwzhALqeO1kubFVD&uid=[uid]&msg
   });
 
 
-ezra({ nomCom: "gpt-all", reaction: "🌀", categorie: "IA" }, async (dest, zk, commandeOptions) => {
+Raheem({ nomCom: "gpt-all", reaction: "🌀", categorie: "IA" }, async (dest, zk, commandeOptions) => {
     const { repondre, arg, ms } = commandeOptions;
   
     try {
