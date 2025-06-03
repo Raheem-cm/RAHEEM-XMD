@@ -1,6 +1,6 @@
 const JavaScriptObfuscator = require("javascript-obfuscator");
 const {
-  ezra
+  Raheem
 } = require("../Raheem-cm/Raheem");
 Raheem({
   'nomCom': "obt",
