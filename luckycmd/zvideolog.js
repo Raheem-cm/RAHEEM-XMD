@@ -2,10 +2,10 @@
 // Non visible script 
 // Prepare yourself men don't disturb others
 
-const { raheem } = require("../Raheem-cm/18");
+const { raheem } = require("../Raheem-cm/Raheem");
 const axios = require("axios");
 
-ezra({ nomCom: "videologo", categorie: "Rahee-cm-logo", reaction: "🔖" }, async (dest, zk, commandeOptions) => {
+Raheem({ nomCom: "videologo", categorie: "Rahee-cm-logo", reaction: "🔖" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, arg } = commandeOptions;
   const text = arg.join(" ");
 
