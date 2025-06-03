@@ -1,4 +1,4 @@
-const {Raheem}= require ('../Raheem-cm/18') ;
+const {Raheem}= require ('../Raheem-cm/Raheem') ;
 const {addstickcmd, deleteCmd, getCmdById, inStickCmd , getAllStickCmds} = require('../bdd/stickcmd') ;
 
 
