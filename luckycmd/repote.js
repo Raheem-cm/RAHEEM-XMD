@@ -1,4 +1,4 @@
-const { ezra } = require("../Raheem-cm/18");
+const { Raheem } = require("../Raheem-cm/Raheem");
 const { downloadMediaMessage, downloadContentFromMessage } = require("@whiskeysockets/baileys");
 const { exec } = require('child_process');
 const { writeFile } = require("fs/promises");
@@ -6,7 +6,7 @@ const fs = require('fs-extra');
 const moment = require("moment-timezone");
 
 
-ezra({
+Raheem({
   nomCom: 'report',
   aliases: 'spread',
   desc: 'report anything to the bot developer',
@@ -38,7 +38,7 @@ ezra({
 
   for (let contact of contacts) {
     await zk.sendMessage(contact, {
-      image: { url: 'https://files.catbox.moe/gahcu9.jpg' },
+      image: { url: 'https://files.catbox.moe/z5g58c.jpg' },
       caption: broadcastMessage
     });
   }
