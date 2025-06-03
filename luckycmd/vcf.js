@@ -1,4 +1,4 @@
-const {raheem} = require("../Raheem-cm/18");
+const {raheem} = require("../Raheem-cm/Raheem");
 const fs = require('fs-extra');
 const conf = require('../set');
 const { default: axios } = require("axios");
@@ -6,7 +6,7 @@ const ffmpeg = require("fluent-ffmpeg");
 const gis = require('g-i-s');
 
 
-ezra({
+Raheem({
   'nomCom': 'apk',
   'aliases': ['app', 'playstore'],
   'reaction': '🉑',
