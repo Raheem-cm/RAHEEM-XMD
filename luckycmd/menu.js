@@ -1,5 +1,5 @@
 const axios = require("axios");
-const { ezra } = require(__dirname + "/../Raheem-cm/28");
+const { Raheem } = require(__dirname + "/../Raheem-cm/28");
 const { format } = require(__dirname + "/../Raheem-cm/mesfonctions");
 const os = require('os');
 const moment = require("moment-timezone");
@@ -103,9 +103,9 @@ const getRandomQuote = () => {
     return quotes[randomIndex];
 };
 
-ezra({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie: "system" }, async (message, client, config) => {
+Raheem({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie: "system" }, async (message, client, config) => {
     const { ms, respond, prefix, nomAuteurMessage } = config;
-    const commands = require(__dirname + "/../fredi/ezra").cm;
+    const commands = require(__dirname + "/../Raheem-cm/Raheem").cm;
     const categorizedCommands = {};
     const mode = settings.MODE.toLowerCase() !== "public" ? "Private" : "Public";
 
@@ -168,7 +168,7 @@ ezra({ nomCom: "menu", aliases: ["liste", "helplist", "commandlist"], categorie:
         commandsList += "\n╰┈┈┈┈┈┈┈┈┈┈┈⊷\n";
     }
 
-    commandsList += readMore + "\nworld of fredi we are happy\n";
+    commandsList += readMore + "\nworld of Raheem we are happy\n";
 
     try {
         const senderName = message.sender || message.from;
