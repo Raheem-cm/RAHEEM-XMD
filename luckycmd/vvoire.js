@@ -1,9 +1,9 @@
-const {raheem}=require("../Raheem-cm/18")
+const {raheem}=require("../Raheem-cm/Raheem")
 const {getContentType}=require("@whiskeysockets/baileys")
 
 
 
-ezra({nomCom:"vv",categorie:"General",reaction:"🤩"},async(dest,zk,commandeOptions)=>{
+Raheem({nomCom:"vv",categorie:"General",reaction:"🤩"},async(dest,zk,commandeOptions)=>{
 
 const {ms,msgRepondu,repondre}=commandeOptions;
 
