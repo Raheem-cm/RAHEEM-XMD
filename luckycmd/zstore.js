@@ -1,7 +1,7 @@
 
-const { raheem } = require('../Raheem-cm/18');
+const { raheem } = require('../Raheem-cm/Raheem');
 
-ezra({
+Raheem({
   nomCom: "happi",
   categorie: "Raheem-funs",
   reaction: "😂"
@@ -29,7 +29,7 @@ ezra({
     repondre("❌ *Error!* " + error.message);
   }
 });
-ezra({
+Raheem({
   nomCom: "heart",
   aliases: ["moyo", "hrt"],
   categorie: "fledi-fun",
@@ -58,7 +58,7 @@ ezra({
     repondre("❌ *Error!* " + error.message);
   }
 });
-ezra({
+Raheem({
   nomCom: "angry",
   categorie: "Raheem-fun",
   reaction: "🥺"
@@ -86,7 +86,7 @@ ezra({
     repondre("❌ *Error!* " + error.message);
   }
 });
-ezra({
+Raheem({
   nomCom: "sad",
   aliases: ["heartbroken", "hrtbroken"],
   categorie: "Raheem-fun",
@@ -115,7 +115,7 @@ ezra({
     repondre("❌ *Error!* " + error.message);
   }
 });
-ezra({
+Raheem({
   nomCom: "shy",
   aliases: ["shyoff", "shyy"],
   categorie: "Raheem-fun",
@@ -144,7 +144,7 @@ ezra({
     repondre("❌ *Error!* " + error.message);
   }
 });
-ezra({
+Raheem({
   nomCom: "moon",
   aliases: ["mon", "mwezi"],
   categorie: "Raheem-fun",
@@ -174,7 +174,7 @@ ezra({
   }
 });
 
-ezra({
+Raheem({
   nomCom: "nikal",
   categorie: "Raheem-fun",
   reaction: "⁉️"
@@ -204,7 +204,7 @@ ezra({
   }
 });
 
-ezra({
+Raheem({
   nomCom: "hand",
   categorie: "Raheem-fun",
   reaction: "👊"
