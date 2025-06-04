@@ -1,7 +1,7 @@
-const { ezra } = require('../Raheem-cm/18');
+const { Raheem } = require('../Raheem-cm/Raheem');
 const axios = require("axios");
 
-ezra({
+Raheem({
   nomCom: "tiktoksearch",
   aliases: ["tiksearch", "tiktoklist"],
   categorie: "RAHEEM-search",
