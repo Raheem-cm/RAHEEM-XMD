@@ -1,10 +1,10 @@
 
-const { raheem } = require("../Raheem-cm/18");
+const { raheem } = require("../Raheem-cm/Raheem");
 const axios = require('axios');
 const ytSearch = require('yt-search');
 
 // Define the command with aliases
-ezra({
+Raheem({
   nomCom: "song",
   aliases: ["musicdoc", "ytmp3doc", "audiodoc", "mp3doc"],
   categorie: "Music",
