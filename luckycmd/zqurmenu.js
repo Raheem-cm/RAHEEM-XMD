@@ -1,6 +1,6 @@
 const util = require('util');
 const fs = require('fs-extra');
-const { ezra } = require(__dirname + "/..//Raheem-cm");
+const { Raheem } = require(__dirname + "/..//Raheem-cm");
 const { format } = require(__dirname + "/../Raheem-cm/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
@@ -8,9 +8,9 @@ const s = require(__dirname + "/../set");
 const more = String.fromCharCode(8206)
 const Taphere = more.repeat(4001)
 
-ezra({ nomCom: "quran-menu", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
+Raheem({ nomCom: "quran-menu", categorie: "Menu" }, async (dest, zk, commandeOptions) => {
     let { ms, repondre ,prefixe,nomAuteurMessage,mybotpic} = commandeOptions;
-    let { cm } = require(__dirname + "/../Raheem-cm//18");
+    let { cm } = require(__dirname + "/../Raheem-cm//Raheem");
     var coms = {};
     var mode = "public";
     
