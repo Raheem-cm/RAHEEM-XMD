@@ -1,6 +1,6 @@
 
 const cheerio = require('cheerio');
-const { ezra } = require("../Raheem-cm/18");
+const { Raheem } = require("../Raheem-cm/Raheem");
 const JavaScriptObfuscator = require("javascript-obfuscator");
 const { c, cpp, node, python, java } = require('compile-run');
 const { dBinary, eBinary } = require("../Raheem-cm/binary");
@@ -9,7 +9,7 @@ const { writeFile } = require("fs/promises");
 const { mediafireDl } = require("../Raheem-cm/dl/Function");
 
  // command for run cc++
-ezra({
+Raheem({
   'nomCom': "run-c++",
   'aliases': ["c++", "runc++"],
   'categorie': "script"
@@ -52,7 +52,7 @@ ezra({
 });
 
  // command for run c
-ezra({
+Raheem({
   'nomCom': "run-c",
   'aliases': ["runcc", "runc"],
   'categorie': "script"
@@ -95,7 +95,7 @@ ezra({
 });
 
  // command for run java
-ezra({
+Raheem({
   'nomCom': "run-java",
   'aliases': ["java", "runjava"],
   'categorie': "script"
@@ -138,7 +138,7 @@ ezra({
 });
 
  // command for run js
-ezra({
+Raheem({
   'nomCom': "run-js",
   'aliases': ["node", "javascript"],
   'categorie': "script"
@@ -181,7 +181,7 @@ ezra({
 });
 
  // command for run python
-ezra({
+Raheem({
   'nomCom': "run-py",
   'aliases': ["python", "runpy"],
   'categorie': "script"
@@ -224,7 +224,7 @@ ezra({
 });
 
  // command for debinary
-ezra({
+Raheem({
   'nomCom': "debinary",
   // Command name
   'aliases': ["decode", "decodebinary"],
@@ -270,7 +270,7 @@ ezra({
 });
 
  // command for ebinary
-ezra({
+Raheem({
   'nomCom': "ebinary",
   // Command name
   'aliases': ["encode", "encodebinary"],
@@ -304,7 +304,7 @@ ezra({
 });
 
  // command for obfuscate 
-ezra({
+Raheem({
   'nomCom': "obfuscate",
   'aliases': ["obfuscate", "obfu"],
   'categorie': "script"
@@ -349,7 +349,7 @@ ezra({
 });
 
  // command for run-carbon
-ezra({
+Raheem({
   'nomCom': "carbon",
   'aliases': ["C", "run-carbon"],
   'categorie': "script"
@@ -397,7 +397,7 @@ ezra({
 
 
  // command for scrap
-ezra({
+Raheem({
   nomCom: "scrap",
   aliases: ["get", "find"],
   categorie: "script",
@@ -472,7 +472,7 @@ ezra({
 });
 
  // command for web scraper
-ezra({
+Raheem({
   nomCom: "web",
   aliases: ["inspectweb", "webinspect", "webscrap"],
   categorie: "script",
