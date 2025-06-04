@@ -1,7 +1,7 @@
 
 
 
-const { raheem } = require("../Raheem-cm/18");
+const { raheem } = require("../Raheem-cm/Raheem");
 const s = require("../set");
 const fs = require('fs');
 const Heroku = require('heroku-client');
@@ -15,7 +15,7 @@ function getDescriptionFromEnv(varName) {
 }
 
 // Anti-call function setup
-ezra({
+Raheem({
   nomCom: 'anticall',
   categorie: "RAHEEM-SETTING"
 }, async (chatId, zk, context) => {
@@ -57,7 +57,7 @@ ezra({
 });
 
 
-ezra({
+Raheem({
   nomCom: 'autoreact',
   categorie: "RAHEEM-SETTING"
 }, async (chatId, zk, context) => {
@@ -98,7 +98,7 @@ ezra({
   }
 });
 
-ezra({
+Raheem({
   nomCom: 'autoreadstatus',
   categorie: "RAHEEM-SETTING"
 }, async (chatId, zk, context) => {
@@ -138,7 +138,7 @@ ezra({
     await zk.sendMessage(chatId, { text: 'Error processing your request.' }, { quoted: ms });
   }
 });
-ezra({
+Raheem({
   nomCom: 'antidelete',
   categorie: "RAHEEM-SETTING"
 }, async (chatId, zk, context) => {
@@ -179,7 +179,7 @@ ezra({
   }
 });
 
-ezra({
+Raheem({
   nomCom: 'autodownloadstatus',
   categorie: "RAHEEM-SETTING"
 }, async (chatId, zk, context) => {
@@ -220,7 +220,7 @@ ezra({
   }
 });
 
-ezra({
+Raheem({
   nomCom: 'startingmessage',
   categorie: "RAHEEM-SETTING"
 }, async (chatId, zk, context) => {
@@ -261,7 +261,7 @@ ezra({
   }
 });
 
-ezra({
+Raheem({
   nomCom: 'autoreadmessage',
   categorie: "RAHEEM-SETTING"
 }, async (chatId, zk, context) => {
@@ -302,7 +302,7 @@ ezra({
   }
 });
 
-ezra({
+Raheem({
   nomCom: 'pm-permit',
   categorie: "RAHEEM-SETTING"
 }, async (chatId, zk, context) => {
@@ -342,7 +342,7 @@ ezra({
     await zk.sendMessage(chatId, { text: 'Error processing your request.' }, { quoted: ms });
   }
 });
-ezra({
+Raheem({
   nomCom: 'autosavecontact',
   categorie: "RAHEEM-SETTING"
 }, async (chatId, zk, context) => {
@@ -382,7 +382,7 @@ ezra({
     await zk.sendMessage(chatId, { text: 'Error processing your request.' }, { quoted: ms });
   }
 });
-ezra({
+Raheem({
   nomCom: 'autoreply',
   categorie: "RAHEEM-SETTING"
 }, async (chatId, zk, context) => {
@@ -423,7 +423,7 @@ ezra({
   }
 });
 
-ezra({
+Raheem({
   nomCom: 'autobio',
   categorie: "RAHEEM-SETTING"
 }, async (chatId, zk, context) => {
@@ -464,7 +464,7 @@ ezra({
   }
 });
 
-ezra({
+Raheem({
   nomCom: 'publicmode',
   categorie: "RAHEEM-SETTING"
 }, async (chatId, zk, context) => {
@@ -505,7 +505,7 @@ ezra({
   }
 });
 
-ezra({
+Raheem({
   nomCom: 'autorecord',
   categorie: "RAHEEM-SETTING"
 }, async (chatId, zk, context) => {
@@ -546,7 +546,7 @@ ezra({
   }
 });
 
-ezra({
+Raheem({
   nomCom: 'autotyping',
   categorie: "RAHEEM-SETTING"
 }, async (chatId, zk, context) => {
@@ -587,7 +587,7 @@ ezra({
   }
 });
 
-ezra({
+Raheem({
   nomCom: 'alwaysonline',
   categorie: "RAHEEM-SETTING"
 }, async (chatId, zk, context) => {
@@ -628,7 +628,7 @@ ezra({
   }
 });
 
-ezra({
+Raheem({
   nomCom: 'privatemode',
   categorie: "RAHEEM-SETTING"
 }, async (chatId, zk, context) => {
@@ -668,7 +668,7 @@ ezra({
     await zk.sendMessage(chatId, { text: 'Error processing your request.' }, { quoted: ms });
   }
 });
-ezra({
+Raheem({
   nomCom: 'autoreactstatus',
   categorie: "RAHEEM-SETTING"
 }, async (chatId, zk, context) => {
@@ -708,7 +708,7 @@ ezra({
     await zk.sendMessage(chatId, { text: 'Error processing your request.' }, { quoted: ms });
   }
 });
-ezra({
+Raheem({
   nomCom: 'audioreply',
   categorie: "RAHEEM-SETTING"
 }, async (chatId, zk, context) => {
@@ -749,7 +749,7 @@ ezra({
   }
 });
 
-ezra({
+Raheem({
   nomCom: 'setting',
   categorie: "RAHEEM-SETTING"
 }, async (chatId, messagingService, context) => {
@@ -829,7 +829,7 @@ ezra({
 
 // Function to change Heroku environment variables
 function changevars(commandName, varName) {
-  ezra({
+  Raheem({
     nomCom: commandName,
     categorie: 'RAHEEM-SETTING'
   }, async (chatId, messagingService, context) => {
