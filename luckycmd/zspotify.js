@@ -1,10 +1,10 @@
-const { raheem } = require('../Raheem-cm/18');
+const { raheem } = require('../Raheem-cm/Raheem');
 const axios = require("axios");
 
-ezra({
+Raheem({
   nomCom: "spotifylist",
   aliases: ["spotifysearch", "splaylist"],
-  categorie: "Fledi-search",
+  categorie: "Raheem-search",
   reaction: "🎬"
 }, async (dest, zk, commandeOptions) => {
   const { repondre, arg } = commandeOptions;
