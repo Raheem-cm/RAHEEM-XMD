@@ -1,7 +1,7 @@
-const { raheem } = require('../Raheem-cm/18');
+const { raheem } = require('../Raheem-cm/Raheem');
 const axios = require("axios");
 
-ezra({
+Raheem({
   nomCom: "twittersearch",
   aliases: ["xsearch", "twitterlist", "tweetsearch", "xsearch"],
   categorie: "Fledi-search",
