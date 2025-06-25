@@ -50,9 +50,9 @@ href="https://github.com/Raheem-cm/RAHEEM-XMD/graphs/commit-activity"><img heigh
 |</p>
 
 <p align="center">
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/Raheem-cm/RAHEEM-XMD-3/tree/main">
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/Raheem-cm/RAHEEM-XMD/tree/main">
    <img 
-  target="_blank"> <img title="DEPLOY RAHEEM-XMD-3 BOT" src="https://img.shields.io/badge/🇹🇿_DEPLOY_ON_HEROKU-000000?style=for-the-badge&logo=heroku&logoColor=gold&color=black" width="260" height="50"/>
+  target="_blank"> <img title="DEPLOY RAHEEM-XMD BOT" src="https://img.shields.io/badge/🇹🇿_DEPLOY_ON_HEROKU-000000?style=for-the-badge&logo=heroku&logoColor=gold&color=black" width="260" height="50"/>
   </a>
   
 | TALKDROVE | <a href="https://host.talkdrove.com/share-bot/47" target="_blank"><img src="https://img.shields.io/badge/TalkDrove-A52A2A?style=for-the-badge&logo=github&logoColor=white&labelColor=000000"/></a></td> |
